@@ -27,11 +27,14 @@ header nav {
 	margin-bottom: 140px;
 }
 
-header nav img {
+header nav #logo {
 	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 10px;
 }
 
-header nav .link a {
+header nav .footer-link a {
+	margin-left: 10px;
 	margin-right: 25px;
 }
 
@@ -124,6 +127,11 @@ header .circle:hover {
 	margin-bottom: 65px;
 }
 
+.content button img {
+	position: relative;
+	top: -2px;
+}
+
 footer {
 	background: url(./img/footer-img.jpg);
 	background-size: auto 100% 100%;
@@ -155,6 +163,13 @@ footer .contact {
 	margin-right: 25px;
 }
 
+footer .contact .fab,
+footer .contact .fas {
+	position: relative;
+	top: 13px;
+	margin-right: 10px;
+}
+
 footer .contact .address {
 	font-size: 16px;
 	margin-bottom: 30px;
@@ -172,7 +187,7 @@ footer .contact .director {
 
 footer .contact .director img {
     position: relative;
-    top: 33px;
+    top: 10px;
     border: 1px solid #fff;
     padding: 4px;
     margin-bottom: 30px;
@@ -201,7 +216,7 @@ footer .social img {
 	border-radius: 3px;
 	margin-top: 45px;
 	margin-bottom: 55px;
-	margin-right: 22px;
+	margin-right: 8px;
 }
 
 footer .copyright {

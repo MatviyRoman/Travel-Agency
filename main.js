@@ -4,9 +4,11 @@ $(window).on('load', function(){
 	})
 	$('#2').click( function(){
 		$('header').css('background', 'url(./img/img.jpg)');
+		$('header').css('background-position', 'center');
 	})
 	$('#3').click( function(){
 		$('header').css('background', 'url(./img/img1.jpg)');
+		$('header').css('background-position', 'center');
 	})
 	$('#4').click( function(){
 		$('header').css('background', 'url(./img/img.jpg)');
