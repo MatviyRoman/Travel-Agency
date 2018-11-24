@@ -170,23 +170,21 @@ header .circle:hover {
 }
 
 .content .card {
-
+ margin-right: 10px;
 }
 
 .content .card .top {
 	position: absolute;
 	background: #252e37;
 	color: #fff;
-	opacity: 0.38;
-}
-
-.content .card .top img {
-	z-index: 1;
-	opacity: 1;
+	background: transparent\9;  
+    background:rgba(0,0,0,0.38);
 }
 
 .content .card h5 {
 	font-size: 15px;
+	margin: 0;
+	position: 0;
 }
 
 .content .card h5 .w-100 {
@@ -199,23 +197,45 @@ header .circle:hover {
 }
 
 .content .card .card-text {
-	font-size: 10px;
-	padding-top: 10px !important;
+	font-size: 13px;
+	padding-top: 10px;
 }
 
 .content .card button {
 	position: relative;
 	top: -27px;
-    left: 133px;
+    left: 164px;
 	margin: 0;
 	font-size: 13px;
 	text-transform: uppercase;
 }
 
-.content .normal-1 {
-	background: url(img/pic-1.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
+.content .card button:hover {
+	background: #cf1327;
+}
+
+.content .card #price {
+	position: absolute;
+    top: 235px;
+    left: 175px;
+}
+
+.content .card #price .picPrice {
+	width: 130px;
+}
+
+.content .card #price .fire {
+	position: relative;
+	top: -30px;
+    left: 25px;
+}
+
+.content .card #price .text {
+	position: relative;
+	font-size: 17px;
+	color: #fff;
+	top: -58px;
+    left: 55px;
 }
 
 .content #settings h3 {
