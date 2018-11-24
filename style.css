@@ -29,11 +29,12 @@ header nav {
 	z-index: 1;
 }
 
-header nav #logo {
+header nav #logo img {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	margin-right: 10px;
 	z-index: 1;
+	height: 70px;
 }
 
 header nav .header-link {
@@ -66,8 +67,8 @@ header nav .otherPhone {
 
 header nav .footer-link {
 	border-top: 1px solid #dc6f7f;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 header nav .footer-link a {
@@ -168,6 +169,49 @@ header .circle:hover {
 	margin-bottom: 25px;
 }
 
+.content .card {
+
+}
+
+.content .card .top {
+	position: absolute;
+	background: #252e37;
+	color: #fff;
+	opacity: 0.38;
+}
+
+.content .card .top img {
+	z-index: 1;
+	opacity: 1;
+}
+
+.content .card h5 {
+	font-size: 15px;
+}
+
+.content .card h5 .w-100 {
+	border-bottom: 1px solid #000;
+}
+
+.content .card span {
+	font-size: 13px;
+	padding-top: 10px !important;
+}
+
+.content .card .card-text {
+	font-size: 10px;
+	padding-top: 10px !important;
+}
+
+.content .card button {
+	position: relative;
+	top: -27px;
+    left: 133px;
+	margin: 0;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
 .content .normal-1 {
 	background: url(img/pic-1.jpg);
 	background-size: contain;
@@ -176,13 +220,6 @@ header .circle:hover {
 
 .content #settings h3 {
 	font-size: 17px;
-}
-
-.content .top {
-	position: absolute;
-	background: #252e37;
-	opacity: 0.38;
-	height: 35px;
 }
 
 .content span {

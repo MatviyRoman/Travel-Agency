@@ -37,3 +37,5 @@ $(function(){
 //   wrap: true
 // })
 
+// $('.btn-sm').button('toggle')
+
