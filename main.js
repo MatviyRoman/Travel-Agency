@@ -19,5 +19,21 @@ $(function(){
   $('.circle').click(function(){
     $('.circle').removeClass("active");
     $(this).addClass("active");
+	});
 });
+
+$(function(){
+  $('.country').click(function(){
+    $('.iconHide').toggle();
+    $('.iconShow').toggle();
+	});
 });
+
+// $('.slideShow').carousel({
+//   interval: 2000,
+//   keyboard: false,
+//   pause: "hover",
+//   ride: true,
+//   wrap: true
+// })
+
