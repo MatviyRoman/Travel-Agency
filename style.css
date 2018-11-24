@@ -164,6 +164,11 @@ header .circle:hover {
 	padding-top: 100px;
 }
 
+.content1,
+.content2 {
+	display: none;
+}
+
 .content h2 {
 	font-size: 41px;
 	margin-bottom: 25px;
@@ -171,6 +176,13 @@ header .circle:hover {
 
 .content .card {
  margin-right: 10px;
+ margin-bottom: 10px;
+}
+
+.content .card .card-body {
+	box-shadow:
+	3px 3px 10px #efefef,
+	-3px 3px 10px #efefef;
 }
 
 .content .card .top {
@@ -216,7 +228,7 @@ header .circle:hover {
 
 .content .card #price {
 	position: absolute;
-    top: 235px;
+    top: 240px;
     left: 175px;
 }
 
@@ -249,6 +261,10 @@ header .circle:hover {
 .content button {
 	margin-top: 50px;
 	margin-bottom: 65px;
+}
+
+.content button:hover {
+	background: #cf1327;
 }
 
 .content button img {

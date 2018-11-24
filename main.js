@@ -39,3 +39,16 @@ $(function(){
 
 // $('.btn-sm').button('toggle')
 
+$(function(){
+ 	$('#btn1').click(function(){
+    	$('.content1').show();
+    	$('#btn1').hide();
+	});
+});
+
+$(function(){
+ 	$('#btn2').click(function(){
+    	$('.content2').show();
+    	$('#btn2').hide();
+	});
+});
