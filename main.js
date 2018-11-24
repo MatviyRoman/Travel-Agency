@@ -15,17 +15,23 @@ $(window).on('load', function(){
 	})
 })
 
+// $(function(){
+//   $('.menu').click(function(){
+//     	$('.footer-link').show();
+// 	});
+// });
+
 $(function(){
   $('.circle').click(function(){
-    $('.circle').removeClass("active");
-    $(this).addClass("active");
+    	$('.circle').removeClass("active");
+    	$(this).addClass("active");
 	});
 });
 
 $(function(){
-  $('.country').click(function(){
-    $('.iconHide').toggle();
-    $('.iconShow').toggle();
+  	$('.country').click(function(){
+    	$('.iconHide').toggle();
+    	$('.iconShow').toggle();
 	});
 });
 
@@ -50,5 +56,14 @@ $(function(){
  	$('#btn2').click(function(){
     	$('.content2').show();
     	$('#btn2').hide();
+	});
+});
+
+$(function(){
+ 	$('#btn3').click(function(){
+ 		$('.content1').hide();
+    	$('.content2').hide();
+    	$('#btn1').show();
+    	$('#btn2').show();
 	});
 });
